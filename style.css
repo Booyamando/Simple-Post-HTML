@@ -1,0 +1,74 @@
+.main {
+    background-color: black;
+    margin: 0;
+}
+
+*,*::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    /* height: 40px; */
+    width: auto;
+    display: flex;
+}
+
+.left {
+    /* background-color: red; */
+    float: left;
+    margin: 5px;
+}
+
+.right {
+    /* background-color: blue; */
+    /* float: right; */
+    display: flex;
+    margin-left: auto;
+}
+
+.middle {
+    /* background-color: yellow; */
+    float: left;
+    padding-left: 5px;
+}
+
+.post{
+    /* background-color: blue; */
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+}
+
+#picture {
+    height: 256px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.footer {
+    background-color: white;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.icons {
+    padding: 15px;
+}
+
+#bookmark {
+    float: right;
+}
+
+.header p {
+    margin: 0;
+}
+
+.footer p {
+    padding: 5px;
+}
